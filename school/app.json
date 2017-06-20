@@ -1,0 +1,96 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/find/find",
+    "pages/familyClass/familyClass",
+    "pages/my/my",
+    "pages/addressList/addressList",
+    "pages/todayMeal/todayMeal",
+    "pages/childHere/childHere",
+    "pages/teacherLeave/teacherLeave",
+    "pages/workApprove/workApprove",
+    "pages/workApproveT/workApproveT",
+    "pages/approveDetail/approveDetail",
+    "pages/approveList/approveList",
+    "pages/childHereDetail/childHereDetail",
+    "pages/teacherHere/teacherHere",
+    "pages/leaveRequest/leaveRequest",
+    "pages/friendCircle/friendCircle",
+    "pages/gwApprove/gwApprove",
+    "pages/gwList/gwList",
+    "pages/gwDetail/gwDetail",
+    "pages/addCircle/addCircle",
+    "pages/yscx/yscx",
+    "pages/szcx/szcx",
+    "pages/teacherAddLeave/teacherAddLeave",
+    "pages/yzxx/yzxx",
+    "pages/ystz/ystz",
+    "pages/xxDetail/xxDetail",
+    "pages/healthManage/healthManage",
+    "pages/jsjl/jsjl",
+    "pages/xsqj/xsqj",
+    "pages/gzspT/gzspT",
+    "pages/studentAddLeave/studentAddLeave",
+    "pages/video/video",
+    "pages/wdtz/wdtz",
+    "pages/fbtzT/fbtzT",
+    "pages/bmrkT/bmrkT",
+    "pages/xkqk/xkqk",
+    "pages/addNewWorkT/addNewWorkT",
+    "pages/addGzspT/addGzspT",
+    "pages/healthManageP/healthManageP",
+    "pages/schedule/schedule",
+    "pages/homeworkP/homeworkP",
+    "pages/twjlP/twjlP",
+    "pages/jrcjP/jrcjP",
+    "pages/tjbgP/tjbgP",
+    "pages/jsManage/jsManage"
+
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#9cd1d7",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+      "color": "#ccc",  
+      "selectedColor": "#9cd1d7",  
+      "borderStyle": "#ff9933",  
+      "backgroundColor": "#fff", 
+      "list":[
+        {
+          "pagePath":"pages/index/index",
+          "text":"园所",
+          "iconPath": "images/home1.png",  
+          "selectedIconPath": "images/home.png" 
+        },
+        {
+          "pagePath":"pages/find/find",
+          "text":"发现",
+          "iconPath": "images/discover1.png",  
+          "selectedIconPath": "images/discover.png" 
+        },
+        {
+          "pagePath":"pages/familyClass/familyClass",
+          "text":"家长课堂",
+          "iconPath": "images/classroom1.png",  
+          "selectedIconPath": "images/classroom.png" 
+        },
+        {
+          "pagePath":"pages/my/my",
+          "text":"我的账号",
+          "iconPath": "images/my1.png",  
+          "selectedIconPath": "images/my.png" 
+        }
+      ]
+    },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

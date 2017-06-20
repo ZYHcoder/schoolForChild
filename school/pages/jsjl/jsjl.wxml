@@ -1,0 +1,45 @@
+<view class="DtailBox">
+	<view class="detailTop">
+		<image src="../../images/baobao.png" />
+		<view>姓名:<tetx class="name">王同学</tetx></view>
+		
+		<view style="color:#9cd1d7;">08:08:08</view>
+	</view>
+	<view class="detailBottom">
+		<image src="../../images/test.png" /><image src="../../images/test.png" />
+	</view>
+	<view class="detailTop2">
+		<image src="../../images/baobao.png" />
+		<view>接送人:<tetx class="name" style="color:#339999; ">妈妈(谁谁谁)</tetx></view>
+	</view>
+</view>
+<view class="DtailBox">
+	<view class="detailTop">
+		<image src="../../images/baobao.png" />
+		<view>姓名:<tetx class="name">王同学</tetx></view>
+		
+		<view style="color:#9cd1d7;">08:08:08</view>
+	</view>
+	<view class="detailBottom">
+		<image src="../../images/test.png" /><image src="../../images/test.png" />
+	</view>
+	<view class="detailTop2">
+		<image src="../../images/baobao.png" />
+		<view>接送人:<tetx class="name" style="color:#339999; ">妈妈(谁谁谁)</tetx></view>
+	</view>
+</view>
+<view class="DtailBox">
+	<view class="detailTop">
+		<image src="../../images/baobao.png" />
+		<view>姓名:<tetx class="name">王同学</tetx></view>
+		
+		<view style="color:#9cd1d7;">08:08:08</view>
+	</view>
+	<view class="detailBottom">
+		<image src="../../images/test.png" /><image src="../../images/test.png" />
+	</view>
+	<view class="detailTop2">
+		<image src="../../images/baobao.png" />
+		<view>接送人:<tetx class="name" style="color:#339999; ">妈妈(谁谁谁)</tetx></view>
+	</view>
+</view>

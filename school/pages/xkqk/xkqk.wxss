@@ -1,0 +1,124 @@
+page{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.top{
+	width: 100%;
+	height: 20rpx;
+	background-color: #edeef0;
+	text-align: center;
+	line-height: 69rpx;
+	color: #666;
+	font-size: 28rpx;
+}
+.title{
+	width: 100%;
+	height: 100rpx;
+	display: flex;
+}
+.title2{
+	width: 100%;
+	height: 34rpx;
+	display: flex;
+}
+.title view{
+	
+	height: 100rpx;
+	flex: 1;
+	text-align: center;
+	line-height: 100rpx;
+}
+.title2 view{
+	
+	height: 34rpx;
+	flex: 1;
+	text-align: center;
+	font-size: 24rpx;
+	color: #999;
+}
+.title image{
+	width: 53rpx;
+	height: 53rpx;
+	vertical-align: middle;
+}
+
+
+
+.detail{
+	width:100%;
+	height: 90%;
+	margin-top:20rpx;
+	background-color: #fff;
+}
+.detail .title{
+	width:100%;
+	height: 90rpx;
+	background-color: #fff;
+}
+.detail .title .name{
+	width:33%;
+	height: 90rpx;
+	line-height: 90rpx;
+	display: inline-block;
+}
+.detail .title .name image{
+	width:41rpx;
+	height: 38rpx;
+	vertical-align: middle;
+	
+}
+.detail .title .name text{
+	
+	line-height: 90rpx;
+	color: #999;
+	font-size: 32rpx;
+	margin-left: 20rpx;
+}
+
+
+
+.detail .point{
+	width:20rpx;
+	height: 20rpx;
+	background-color: #f2a122;
+	border:1rpx solid #f2a122;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 35rpx;
+}
+.detail .bor{
+	width:1rpx;
+	height: 56rpx;
+	border-right:1rpx dashed #ccc;
+	display: inline-block;
+	float: right;
+	margin-top:15rpx;
+}
+
+.detail .title .name .text1{
+	color: #666;
+	font-size: 30rpx;
+}
+
+.detail .title .name .text2{
+	width: 200rpx;
+	height: 90rpx;
+	display: inline-block;
+	color: #00cc33;
+	font-size: 24rpx;
+}
+.detail .title .name .text22{
+	width: 200rpx;
+	height: 90rpx;
+	display: inline-block;
+	color: #3333ff;
+	font-size: 24rpx;
+}
+.detail .title .name .text222{
+	width: 200rpx;
+	height: 90rpx;
+	display: inline-block;
+	color: #ff3333;
+	font-size: 24rpx;
+}

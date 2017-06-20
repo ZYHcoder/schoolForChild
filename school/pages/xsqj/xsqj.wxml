@@ -1,0 +1,24 @@
+<view bindtap="listDetailTap" class="list">
+	<view class="top">
+		<image src="../../images/baobao.png" /><text class="txt1">王同学</text><text class="txt2">提交申请时间:2017-05-01 08:08</text><text class="txt3">回复</text>
+	</view>
+	<view class="detail">
+		大上课了静待花开撒谎都卡了设计好的卡就是点击卡萨好多接口的空间撒谎的空间啊湿度接口道具卡手机端克拉
+	</view>
+</view>
+<view class="list">
+	<view class="top">
+		<image src="../../images/baobao.png" /><text class="txt1">王同学</text><text class="txt2">提交申请时间:2017-05-01 08:08</text><text class="txt3">回复</text>
+	</view>
+	<view class="detail">
+		道具卡手机端克拉
+	</view>
+</view>
+<view class="list">
+	<view class="top">
+		<image src="../../images/baobao.png" /><text class="txt1">王同学</text><text class="txt2">提交申请时间:2017-05-01 08:08</text><text class="txt4">已回复</text>
+	</view>
+	<view class="detail">
+		大上课了静待花开撒谎都卡了设计好的卡就是点击卡萨好多接口的空间撒谎的空间啊湿度接口道具卡手机端克拉
+	</view>
+</view>

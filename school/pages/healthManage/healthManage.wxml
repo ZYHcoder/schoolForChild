@@ -1,0 +1,61 @@
+<view class="top">
+	{{date}}
+</view>
+
+<view class="title">
+	<view>
+		<image src="../../images/xm.png" />
+	</view>
+	<view>
+		<image src="../../images/tw.png" />
+	</view>
+	<view>
+		<image src="../../images/cjqk.png" />
+	</view>
+
+</view>
+<view class="title2">
+	<view>
+		姓名
+	</view>
+	<view>
+		体温
+	</view>
+	<view>
+		晨检情况
+	</view>
+
+</view>
+<view class="detail">
+	
+
+
+	<view class="title" >
+		<view class="name">
+			<view class="point"></view><text class="text1">王同学</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">36.2℃</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<image src="../../images/twzc.png" />
+			<text class="text2">正常</text>
+		</view>
+	</view>	
+	<view class="title" >
+		<view class="name">
+			<view class="point"></view><text class="text1">王同学</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">36.2℃</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<image src="../../images/twfs.png" />
+			<text class="text2">发烧</text>
+		</view>
+	</view>	
+	
+
+	
+	
+</view>

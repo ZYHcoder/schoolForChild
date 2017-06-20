@@ -1,0 +1,15 @@
+<view class="detailList">
+	<view class="detail" bindtap="leaveDetail">
+		<view class="detailName">
+			<text class="point"></text><text>主盘盘</text>
+		</view>
+		<view class="detailBody">
+			哈哈哈哈哈哈
+		</view>
+		<view class="detailBottom">
+			2012-1-1
+		</view>
+	</view>
+	
+	
+</view>

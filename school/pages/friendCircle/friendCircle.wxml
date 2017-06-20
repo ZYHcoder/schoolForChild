@@ -1,0 +1,54 @@
+<view class="box">
+	<view class="left">
+		<image src="../../images/baobao.png" />
+	</view>
+	<view class="right">
+		<view class="name">
+			王老师
+		</view>
+		<view class="word">
+			大是你的卡拉是滴斯科拉好的框架撒的谎的的萨克蒙地卡罗事件啊恐龙当家
+		</view>
+		<view class="picture">
+			<image src="../../images/baobao.png" /><image src="../../images/baobao.png" /><image src="../../images/baobao.png" /><image src="../../images/baobao.png" /><image src="../../images/baobao.png" /><image src="../../images/baobao.png" /><image src="../../images/baobao.png" /><image src="../../images/baobao.png" /><image src="../../images/baobao.png" />
+		</view>
+		<view class="button">
+			<text>1小时前</text>
+			<image bindtap="zpTap" src="../../images/zt.png" />
+			<view class="double" hidden="{{isHidden}}">
+				<view bindtap="zanTap" class="zan">
+					<image src="../../images/zan.png" />赞
+				</view>
+				<view bindtap="pinglunTap" class="pinglun">
+					<image src="../../images/pl.png" />评论
+				</view>
+			</view>
+		</view>
+		<view class="detail">
+			<view class="isZan">
+				<image src="../../images/yz.png" /><text>李老师,</text><text>李老师</text><text>李老师</text><text>李老师</text><text>李老师</text><text>李老师</text><text>李老师</text><text>李老师</text><text>李老师</text><text>李老师</text>
+			</view>
+			<view class="isPinglun">
+				<view class="pinglunDetail">
+					<text>李老师：</text>打算考虑的教科书垃圾袋库拉索打卡了是多宽芦荟胶萨克雷动环监控拉升
+				</view>
+				<view class="pinglunDetail">
+					<text>李老师：</text>打算考
+				</view>
+			</view>
+		</view>
+		
+		
+	</view>
+</view>
+
+	
+<view class="section" wx:if="{{isHidden2}}">
+  <textarea class="wordDetail" placeholder="这个只有在按钮点击的时候才聚焦" focus="{{focus}}" placeholder="评论" bindconfirm="bindconfirmTap"  auto-height fixed cursor-spacing="5" />
+
+</view>
+
+<!-- <view class="add" bindtap="addTap">
+	点击这里发朋友圈
+</view> -->
+

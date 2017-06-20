@@ -1,0 +1,9 @@
+<view class="box" bindtap="xxTap">
+	<view class="top">
+		<image src="{{status2==0?'../../images/weidu.png':'../../images/yidu.png'}}" /><text class="t1">信箱1</text><text class="{{status2==0?'dian':''}}"></text><text class="t2">2017.05.01.08:08:08</text><image class="img2" src="../../images/jt1.png" />
+	</view>
+	<view class="body">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	
+</view>

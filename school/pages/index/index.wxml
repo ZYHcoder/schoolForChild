@@ -1,0 +1,281 @@
+<!-- 校长 -->
+<block wx:if="{{presidentShow}}">
+	<view >
+			<!-- 展示列表 -->
+		
+		<!-- 顶部轮播 -->
+			<swiper class="swiper" indicator-dots="true"
+			  autoplay="true" interval="3000" duration="500" circular="true" indicator-color="rgba(255,255,255,1)" indicator-active-color="#7ddcee" >
+			  <block wx:for="{{imgUrlsBannre}}">
+			    <swiper-item>
+			      <image src="{{item}}" style="height:206rpx; width:100%;"/>
+			    </swiper-item>
+			  </block>
+			</swiper>
+
+			<!-- 监测学校温度情况 -->
+			<view class="watch">
+				<view class="watch-1">
+					<view class="watch-2">
+						<image src="../../images/watch1.png" />
+					</view>
+					<view class="watch-22">
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/watchSun.png" />
+							</view>
+							<view class="watch-22-2" style="flex:1.3;">
+								{{wd}}
+							</view>
+						</view>
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/water.png" />
+							</view>
+							<view style="flex:1.3;" class="watch-22-2">
+							{{sd}}
+							</view>
+						</view>
+					</view>
+				</view>
+				<view class="watch-1">
+					<view class="watch-2">
+						<image src="../../images/qxrs.png" />
+					</view>
+					<view class="watch-22">
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/baobao.png" />
+							</view>
+							<view class="watch-22-2">
+							{{aqty}}名
+							</view>
+						</view>
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/number.png" />
+							</view>
+							<view class="watch-22-2">
+							{{yqty}}名
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			
+			<!-- 功能 -->
+			<view class="iconButton" style="border-top:1px dashed #ccc;padding-top:20rpx;margin-top:3rpx;">
+				<view wx:for="{{iconList1}}" bindtap="iconButtonTap" data-indexId='{{item.id}}' wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+			</view>
+			<view class="iconButton" >
+				<view wx:for="{{iconList2}}" bindtap="iconButtonTap"  data-indexId='{{item.id}}' wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+			</view>
+			<view class="iconButton" style="border-bottom:1px dashed #ccc;padding-bottom:20rpx;" >
+				<view wx:for="{{iconList3}}" bindtap="iconButtonTap" data-indexId='{{item.id}}' wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+			</view>
+	</view>	
+</block>
+
+<!-- 老师 -->
+<block wx:if="{{teacherShow}}">
+	<view >
+		<!-- 顶部轮播 -->
+			<swiper class="swiper" indicator-dots="true"
+			  autoplay="true" interval="3000" duration="500" circular="true" indicator-color="rgba(255,255,255,1)" indicator-active-color="#7ddcee" >
+			  <block wx:for="{{imgUrlsBannre}}">
+			    <swiper-item>
+			      <image src="{{item}}" style="height:206rpx; width:100%;"/>
+			    </swiper-item>
+			  </block>
+			</swiper>
+			
+			<!-- 功能 -->
+			<view class="iconButton" style="border-top:1px dashed #ccc;padding-top:20rpx;margin-top:3rpx;">
+				<view wx:for="{{iconList4}}" bindtap="iconButtonTap2" data-indexId="{{item.id}}" wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+			</view>
+			<view class="iconButton">
+				<view wx:for="{{iconList5}}" bindtap="iconButtonTap2"  data-indexId="{{item.id}}" wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+			</view>
+			<view class="iconButton" style="border-bottom:1px dashed #ccc;padding-bottom:20rpx;">
+				<view wx:for="{{iconList6}}" bindtap="iconButtonTap2"  data-indexId="{{item.id}}" wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+				
+			</view>
+
+
+			<!-- 温度湿度人数监控 -->
+			<view class="watch">
+				<view class="watch-1" style="flex:1;">
+					
+					<view class="watch-22">
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/watchSun.png" />
+							</view>
+							<view style="flex:1.3;" class="watch-22-2">
+								{{wd}}
+							</view>
+						</view>
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/water.png" />
+							</view>
+							<view style="flex:1.3;" class="watch-22-2">
+							{{sd}}
+							</view>
+						</view>
+					</view>
+				</view>
+				<view class="watch-1" style="flex:3;">
+					<view class="watch-22">
+						<view class="watch-22-1">
+							<view class="watch-22-2" style="color: #aeaeae;">
+								本班级
+							</view>
+							<view class="watch-22-2">
+								35
+							</view>
+						</view>
+						<view class="watch-22-1">
+							<view class="watch-22-2" style="color: #aeaeae;">
+								请假人数
+							</view>
+							<view class="watch-22-2">
+							    3
+							</view>
+						</view>
+						<!-- <view class="watch-22-1" style="text-align: center;line-height: 40px;text-indent: 30rpx;background-color:#9ad0da;color: #fff;font-size: 24rpx;width: 145rpx;border:1px solid #9ad0da; border-radius: 15rpx;margin-left:20rpx;flex:0.7; line-height: 60rpx; ">
+							请假明细
+						</view> -->
+					</view>
+					<view class="watch-22">
+						<view class="watch-22-1">
+							<view class="watch-22-2" style="color: #aeaeae;">
+								已到校
+							</view>
+							<view class="watch-22-2">
+								35
+							</view>
+						</view>
+						<view class="watch-22-1">
+							<view class="watch-22-2" style="color: #aeaeae;">
+								异常人数
+							</view>
+							<view class="watch-22-2">
+							    3
+							</view>
+						</view>
+						<!-- <view class="watch-22-1" style="text-align: center;line-height: 40px;text-indent: 30rpx;background-color:#9ad0da;color: #fff;font-size: 24rpx;width: 145rpx;border:1px solid #9ad0da; border-radius: 15rpx;margin-left:20rpx;flex:0.7; line-height: 60rpx;  ">
+							请假明细
+						</view> -->
+					</view>
+				</view>
+			</view>
+	</view>	
+</block>
+
+<!-- 家长 -->
+<block wx:if="{{parentShow}}">
+	<view >
+		<!-- 顶部轮播 -->
+			<swiper class="swiper" indicator-dots="true"
+			  autoplay="true" interval="3000" duration="500" circular="true" indicator-color="rgba(255,255,255,1)" indicator-active-color="#7ddcee" >
+			  <block wx:for="{{imgUrlsBannre}}">
+			    <swiper-item>
+			      <image src="{{item}}" style="height:206rpx; width:100%;"/>
+			    </swiper-item>
+			  </block>
+			</swiper>
+
+			<!-- 监测学校温度情况 -->
+			<view class="watch">
+				<view class="watch-1">
+					<view class="watch-2">
+						<image src="../../images/watch1.png" />
+					</view>
+					<view class="watch-22">
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/watchSun.png" />
+							</view>
+							<view class="watch-22-2">
+								{{wd}}
+							</view>
+						</view>
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/water.png" />
+							</view>
+							<view class="watch-22-2">
+							{{sd}}
+							</view>
+						</view>
+					</view>
+				</view>
+				<view class="watch-1">
+					<view class="watch-2">
+						<image src="../../images/bbzt.png" />
+					</view>
+					<view class="watch-22">
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/ydx.png" />
+							</view>
+							<view class="watch-22-2">
+							已到校
+							</view>
+						</view>
+						<view class="watch-22-1">
+							<view class="watch-22-2">
+								<image src="../../images/bbwd.png" />
+							</view>
+							<view class="watch-22-2">
+							36.8
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			
+			<!-- 功能 -->
+			<view class="iconButton" style="border-top:1px dashed #ccc;padding-top:20rpx;margin-top:3rpx;">
+				<view wx:for="{{iconList7}}" bindtap="iconButtonTap3" data-indexId="{{item.id}}" wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+			</view>
+			<view class="iconButton">
+				<view wx:for="{{iconList8}}" bindtap="iconButtonTap3" data-indexId="{{item.id}}" wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+				
+			</view>
+			<view class="iconButton" style="border-bottom:1px dashed #ccc;padding-bottom:20rpx;">
+				<view wx:for="{{iconList9}}" bindtap="iconButtonTap3" data-indexId="{{item.id}}" wx:key="{{item.id}}">
+					<image src="{{item.imageUrl}}" />
+					<view>{{item.name}}</view>
+				</view>
+				
+			</view>
+			
+	</view>	
+</block>
+

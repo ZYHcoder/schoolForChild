@@ -1,0 +1,29 @@
+<view class="top">
+	<view class="box">
+		申请人:<text style="margin-left: 58rpx;color:#333;">返回数据缺少名字</text>
+	</view>
+	<view class="box">
+		申请时间:<text style="margin-left:28rpx;color:#333;">{{leaveData.sdate}}</text>
+	</view>
+	<view class="box">
+		申请概括:<text style="margin-left:28rpx;color:#333;">这是申请概括</text>
+	</view>
+	<view class="box">
+		申请时间:<text style="margin-left:28rpx;color:#333;">2017-05-05 09:08:08</text>
+	</view>
+	<view class="box">
+		详细内容:
+	</view>
+</view>
+<view class="body">
+	{{leaveData.zt}}
+</view>
+
+<view class="bottom">
+	<view class="button" style="margin-left:30rpx;" bindtap="yesTap">
+		批准
+	</view>
+	<view class="button" style="margin-left:25rpx;" bindtap="noTap">
+		拒绝
+	</view>
+</view>

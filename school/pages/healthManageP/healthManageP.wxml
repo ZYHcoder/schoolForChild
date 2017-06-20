@@ -1,0 +1,61 @@
+<view class="top">
+	
+</view>
+<view class="topIcon">
+	<view class="iconList" data-number="0" bindtap="jrcjTap">
+		<image src="../../images/jrcj.png" />
+		<view>今日晨检</view>
+		
+	</view>
+	<view class="iconList" data-number="1" bindtap="twjlTap">
+		<image src="../../images/twjl.png" />
+		<view>体温记录</view>
+	</view>
+	<view class="iconList" data-number="2" bindtap="tjbgtTap">
+		<image src="../../images/tjbg.png" />
+		<view>体检报告</view>
+	</view>
+	
+</view>
+
+<view class="title">
+	今日测量
+</view>
+<view class="detail">
+	<view class="box">
+		<view class="box2" style="border-right: 1px dashed #ccc;">
+			<image src="../../images/baobao.png" /> <text class="txt1">姓名:</text><text class="txt2">王同学</text>
+		</view>
+		<view class="box2">
+			<image src="../../images/baobao.png" /> <text class="txt1">姓名:</text><text class="txt2">120cm</text>
+		</view>
+	</view>
+	<view class="box">
+		<view class="box2" style="border-right: 1px dashed #ccc;">
+			<image src="../../images/baobao.png" /> <text class="txt1">体温:</text><text class="txt2">36.2℃</text>
+		</view>
+		<view class="box2">
+			<image src="../../images/baobao.png" /> <text class="txt1">体重:</text><text class="txt2">30kg</text>
+		</view>
+	</view>
+</view>
+<view class="result">
+	<view class="center">
+		<image src="../../images/baobao.png" /><text style="color: #999;font-size: 24rpx;margin-left: 25rpx;">晨检结果</text><text style="color: #00cc33;font-size: 32rpx;margin-left: 25rpx;">正常</text><image src="../../images/baobao.png" />
+	</view>
+	<view class="bor"></view>
+</view>
+
+<view class="resultImg">
+	<view class="img">
+		<view class="imgBox">
+			<image src="../../images/baobao.png" />
+		</view>
+		<view class="imgBox">
+			<image src="../../images/baobao.png" />
+		</view>
+	</view>
+</view>
+<view class="bottom">
+	<text>提示:</text>提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示提示
+</view>

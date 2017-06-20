@@ -1,0 +1,28 @@
+<view class="box">
+	<view class="title">
+		视频标题视频标题视频标题视频标题
+	</view>
+	<view class="detail">
+		视频标题视频标题视频标题视频标题视频标题视频标题
+	</view>
+	 <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"   controls></video>
+	 <view class="bottom">
+	 	<view><image src="../../images/timelong.png" />03:03:03</view>
+	 	<view><image src="../../images/timelong.png" />王老师</view>
+	 	<view><image src="../../images/timelong.png" />2017-05-01</view>
+	 </view>
+</view>
+<view class="box">
+	<view class="title">
+		视频标题视频标题视频标题视频标题
+	</view>
+	<view class="detail">
+		视频标题视频标题视频标题视频标题视频标题视频标题
+	</view>
+	 <video id="myVideo" src="http://v.youku.com/v_show/id_XMjc4NzQ2OTg3Ng==.html?spm=a2hww.20023042.m_223465.5~5~5~5~5~5~A"   controls></video>
+	 <view class="bottom">
+	 	<view><image src="../../images/timelong.png" />03:03:03</view>
+	 	<view><image src="../../images/timelong.png" />王老师</view>
+	 	<view><image src="../../images/timelong.png" />2017-05-01</view>
+	 </view>
+</view>

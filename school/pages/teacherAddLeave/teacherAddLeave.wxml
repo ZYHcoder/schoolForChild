@@ -1,0 +1,66 @@
+<view class="top">
+	请假申请
+</view>
+<view class="box1" style="padding-top:15rpx;">
+	请假事由:<input class="txt" type="text" placeholder="请假标题" />
+</view>
+<view class="box1">
+	请假起止日期:
+</view>
+<view class="box1">
+	事由详述:
+</view>
+<view class="txtarea">
+	<textarea class="detail" name="" placeholder="请假事由">
+	
+	</textarea>
+</view>
+<view class="btn">
+	<view bindtap="addTap">提交</view>
+</view>
+
+
+<view class="mid">
+	<view class="time">
+		<view class="box">
+			<picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+			    <view class="picker">
+			       {{date}}
+			    </view>
+		  </picker>	
+		</view>
+		到
+		<view class="box" style="margin-left:18rpx;">
+			<picker mode="date" value="{{date2}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+			    <view class="picker">
+			       {{date}}
+			    </view>
+		  </picker>	
+		</view>
+		<view class="box2">
+			查询
+		</view>
+	</view>
+</view>
+
+<view class="bottom">
+	<view class="title">
+		<text style="margin-left: 35%;">我的请假</text>
+		
+	</view>
+	<view class="title">
+		<text class="txt1">标题标题标题标题标题标题</text><text class="txt2">2017-05-01 08:08</text><image src="../../images/yes.png" />
+	</view>
+	<view class="title">
+		<text class="txt1">标题标题</text><text class="txt2">2017-05-01 08:08</text><image src="../../images/yes.png" />
+	</view>
+	<view class="title">
+		<text class="txt1">标题标题</text><text class="txt2">2017-05-01 08:08</text><image src="../../images/noa.png" />
+	</view>
+	<view class="title">
+		<text class="txt1">标题标题</text><text class="txt2">2017-05-01 08:08</text><image src="../../images/yes.png" />
+	</view>
+	
+	
+</view>
+

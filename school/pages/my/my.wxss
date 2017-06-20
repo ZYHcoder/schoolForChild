@@ -1,0 +1,72 @@
+page{
+	width: 100%;
+	height: 100%;
+	background-color: #edeef0;
+}
+.top{
+	width: 100%;
+	height: 310rpx;
+	background-color: #9cd1d7;
+	text-align: center;
+	color: #fff;
+	font-size: 40rpx;
+	overflow:hidden;
+}
+.top .picture{
+	width: 178rpx;
+	height: 178rpx;
+	margin: 0 auto;
+	margin-top:40rpx;
+	border:1px solid #9cd1d7;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #fff;
+}
+.top image{
+	width: 178rpx;
+	height: 178rpx;
+	
+}
+
+.my{
+	width: 100%;
+	height: 272rpx;
+	margin-top:18rpx;
+	background-color: #fff;
+	border-top:1rpx solid #eee;
+	border-bottom:1rpx solid #eee;
+}
+.my .myBox{
+	width: 100%;
+	height: 90rpx;
+	line-height: 90rpx;
+	text-indent: 24rpx;
+}
+.my .myBox image{
+	width: 54rpx;
+	height: 54rpx;
+	vertical-align: middle;
+}
+.my .myBox .name{
+	margin-left:20rpx;
+	color: #333;
+	font-size: 36rpx;
+}
+.my .myBox .right{
+	color: #333;
+	font-size: 36rpx;
+	margin-right:30rpx;
+	float: right;
+}
+.logOut{
+	width: 90%;
+	height: 50rpx;
+	margin: 0 auto;
+	margin-top:25rpx;
+	background-color: #9cd1d7;
+	
+	text-align: center;
+	line-height: 50rpx;
+	border:1px solid #9cd1d7;
+	border-radius: 20rpx;
+}

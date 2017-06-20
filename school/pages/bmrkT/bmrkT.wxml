@@ -1,0 +1,74 @@
+<view class="top">
+	
+</view>
+
+<view class="title">
+	<view>
+		<image src="../../images/bmlx.png" />
+	</view>
+	<view>
+		<image src="../../images/bmrq.png" />
+	</view>
+	<view>
+		<image src="../../images/bmmc.png" />
+	</view>
+
+</view>
+<view class="title2">
+	<view>
+		报名类型
+	</view>
+	<view>
+		日期
+	</view>
+	<view>
+		名称
+	</view>
+
+</view>
+<view class="detail">
+	
+
+
+	<view class="title" bindtap="leaveDetail">
+		<view class="name">
+			<image src="../../images/bmlx.png" /><text class="text1">选课</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">2017-05-01</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">美术课</text>
+			<image style="width: 16rpx;height: 26rpx;" src="../../images/rightA.png" />
+		</view>
+	</view>	
+		<view class="title" bindtap="leaveDetail">
+		<view class="name">
+			<image src="../../images/bmlx.png" /><text class="text1">选课</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">2017-05-01</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">美术课</text>
+			<image style="width: 16rpx;height: 26rpx;" src="../../images/rightA.png" />
+		</view>
+	</view>	
+		<view class="title" bindtap="leaveDetail">
+		<view class="name">
+			<image src="../../images/bmlx.png" /><text class="text1">选课</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">2017-05-01</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">美术课</text>
+			<image style="width: 16rpx;height: 26rpx;" src="../../images/rightA.png" />
+		</view>
+	</view>	
+		
+	
+
+	
+	
+</view>

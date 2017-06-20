@@ -1,0 +1,16 @@
+<!-- 搜索 -->
+<view class="searchText">
+	<input class="searchInput" name="search" type="text" placeholder="搜索" placeholder-style="color:#e0e0e0" confirm-type="search"/>
+</view>
+<view class="groupList" wx:for="{{list}}">
+	<view class="groupName" bindtap="groupNameTap" data-show="{{item.show}}" data-indexNumber="{{index}}">
+		<image class="iconLeft" src="../../images/iconLeft.png"></image><text>{{item.word}}</text><image class="iconRight" src="../../images/iconRight.png"></image>
+	</view>
+	<view class="groupDetail"  wx:if="{{index==number?true:false}}">
+	{{index}}{{number}}
+		<view wx:for="{{list[index].dataList}}">
+			<text>{{item.name}}</text><text>{{item.number}}</text>
+		</view>
+		
+	</view>
+</view>

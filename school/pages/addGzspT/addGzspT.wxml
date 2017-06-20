@@ -1,0 +1,25 @@
+<view class="top">
+	
+</view>
+<view class="box1" style="padding-top:15rpx;">
+	   申请类型:
+	   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" name="gangwei" type="text" placeholder="岗位" placeholder-style="color:#e0e0e0" >
+			<image style="width:30rpx;float:right;height: 18rpx;margin-top:30rpx;margin-right:20rpx;" src="../../images/jt2.png"></image>
+			{{array[index]}}
+		</picker>
+</view>
+
+<view class="box1">
+	申请内容:
+</view>
+<view class="txtarea">
+	<textarea class="detail" name="" placeholder="申请内容">
+	
+	</textarea>
+</view>
+<view class="btn">
+	<view bindtap="addTap">提交</view>
+</view>
+
+
+

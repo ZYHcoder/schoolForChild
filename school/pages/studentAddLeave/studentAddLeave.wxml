@@ -1,0 +1,33 @@
+<view class="top">
+	<view class="box">
+		请假标题:<text style="margin-left: 58rpx;color:#333;">{{leaveData.zt}}</text>
+	</view>
+	<view class="box">
+		申请时间:<text style="margin-left:28rpx;color:#333;">{{leaveData.sdate}}</text>
+	</view>
+	<view class="box">
+		请假起止时间:
+	</view>
+	<view class="time">
+		<text style="font-size:32rpx;margin-left: 36rpx;margin-right: 16rpx;color:#333;">{{leaveData.inputedate}}</text>到<text style="font-size:32rpx;margin-left: 16rpx;color:#333;">{{leaveData.edate}}</text>
+	</view>
+	<view class="box">
+		请假事由:
+	</view>
+</view>
+<view class="body">
+	发射空间风口浪尖疯狂拉升的解放路口及案例看见
+</view>
+<view class="zhanwei">
+	
+</view>
+<textarea placeholder="在此处回复假条" class="body2">
+	
+</textarea>
+
+<view class="bottom">
+	<view class="button" style="margin:0 auto;" bindtap="yesTap">
+		回复
+	</view>
+	
+</view>

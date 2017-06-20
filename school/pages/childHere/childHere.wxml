@@ -1,0 +1,128 @@
+<view class="box">
+	<view class="box2" bindtap="childHereDetailTap">
+		<view class="clound">
+			大一班
+		</view>
+		<view class="box3">
+			<view class="box4"> 
+				<image src="../../images/baobao.png" />
+				<view>
+					<view style="font-size: 30rpx;">
+						总数
+					</view>
+					<view style="color: #e83f2d">
+						30
+					</view>
+					
+				</view>
+			</view>
+			<view class="box4"> 
+				<image src="../../images/shidao.png" style="padding-left:10rpx" />
+				<view style="margin-right: 30rpx;">
+					<view style="font-size: 30rpx;">
+						实到
+					</view>
+					<view style="color: #e83f2d">
+						30
+					</view>
+					
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="box2">
+		<view class="clound">
+			大一班
+		</view>
+		<view class="box3">
+			<view class="box4"> 
+				<image src="../../images/baobao.png" />
+				<view>
+					<view style="font-size: 30rpx;">
+						总数
+					</view>
+					<view style="color: #e83f2d">
+						30
+					</view>
+					
+				</view>
+			</view>
+			<view class="box4"> 
+				<image src="../../images/shidao.png" style="padding-left:10rpx" />
+				<view style="margin-right: 30rpx;">
+					<view style="font-size: 30rpx;">
+						实到
+					</view>
+					<view style="color: #e83f2d">
+						30
+					</view>
+					
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="box2">
+		<view class="clound">
+			大一班
+		</view>
+		<view class="box3">
+			<view class="box4"> 
+				<image src="../../images/baobao.png" />
+				<view>
+					<view style="font-size: 30rpx;">
+						总数
+					</view>
+					<view style="color: #e83f2d">
+						30
+					</view>
+					
+				</view>
+			</view>
+			<view class="box4"> 
+				<image src="../../images/shidao.png" style="padding-left:10rpx" />
+				<view style="margin-right: 30rpx;">
+					<view style="font-size: 30rpx;">
+						实到
+					</view>
+					<view style="color: #e83f2d">
+						30
+					</view>
+					
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="box2">
+		<view class="clound">
+			大一班
+		</view>
+		<view class="box3">
+			<view class="box4"> 
+				<image src="../../images/baobao.png" />
+				<view>
+					<view style="font-size: 30rpx;">
+						总数
+					</view>
+					<view style="color: #e83f2d">
+						30
+					</view>
+					
+				</view>
+			</view>
+			<view class="box4"> 
+				<image src="../../images/shidao.png" style="padding-left:10rpx" />
+				<view style="margin-right: 30rpx;">
+					<view style="font-size: 30rpx;">
+						实到
+					</view>
+					<view style="color: #e83f2d">
+						30
+					</view>
+					
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

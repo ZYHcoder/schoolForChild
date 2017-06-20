@@ -1,0 +1,76 @@
+<view class="date">
+	5月1日   星期一
+</view>
+
+<view class="mealDetail">
+	<view class="detailName">
+		<image src="../../images/zaocan.png" />早餐<image bindtap="cameraTap" hidden="{{ishHdden}}" style="margin-left:190rpx;width: 50rpx;height: 45rpx;" src="../../images/paizhao.png" />
+	</view>
+	<view class="detailImg">
+		<view class="detailImg-img1">
+			<view class="detailImg-img2" style="background: url(http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg) ; ">
+				<view class="detailWord">
+				粥
+				</view>
+			</view>
+			
+		</view>
+		<view class="detailImg-img1" >
+			<view class="detailImg-img2" style="background: url(http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg) ; ">
+				<view class="detailWord">
+				粥
+				</view>
+			</view>
+			
+		</view>
+		
+	</view>
+</view>
+<view class="mealDetail">
+	<view class="detailName">
+		<image src="../../images/wucan.png" />午餐<image bindtap="cameraTap" hidden="{{ishHdden}}" style="margin-left:190rpx;width: 50rpx;height: 45rpx;" src="../../images/paizhao.png" />
+	</view>
+	<view class="detailImg">
+		<view class="detailImg-img1">
+			<view class="detailImg-img2" style="background: url(http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg) ; ">
+				<view class="detailWord">
+				粥
+				</view>
+			</view>
+			
+		</view>
+		<view class="detailImg-img1" >
+			<view class="detailImg-img2" style="background: url(http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg) ; ">
+				<view class="detailWord">
+				粥
+				</view>
+			</view>
+			
+		</view>
+		
+	</view>
+</view>
+<view class="mealDetail">
+	<view class="detailName">
+		<image src="../../images/zaocan.png" />午点<image bindtap="cameraTap" hidden="{{ishHdden}}" style="margin-left:190rpx;width: 50rpx;height: 45rpx;" src="../../images/paizhao.png" />
+	</view>
+	<view class="detailImg">
+		<view class="detailImg-img1">
+			<view class="detailImg-img2" style="background: url(http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg) ; ">
+				<view class="detailWord">
+				粥
+				</view>
+			</view>
+			
+		</view>
+		<view class="detailImg-img1" >
+			<view class="detailImg-img2" style="background: url(http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg) ; ">
+				<view class="detailWord">
+				粥
+				</view>
+			</view>
+			
+		</view>
+		
+	</view>
+</view>

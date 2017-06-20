@@ -1,0 +1,61 @@
+<view class="top">
+	{{date}}
+</view>
+
+<view class="title">
+	<view>
+		<image src="../../images/xm.png" />
+	</view>
+	<view>
+		<image src="../../images/dxzt.png" />
+	</view>
+	<view>
+		<image src="../../images/rgqd.png" />
+	</view>
+
+</view>
+<view class="title2">
+	<view>
+		姓名
+	</view>
+	<view>
+		到校状态
+	</view>
+	<view>
+		人工签到
+	</view>
+
+</view>
+<view class="detail">
+	
+
+
+	<view class="title" >
+		<view class="name">
+			<view class="point"></view><text class="text1">王同学</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">已到校</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			
+			<text class="text2" style="{{style2}}">签到</text>
+		</view>
+	</view>	
+	<view class="title" >
+		<view class="name">
+			<view class="point"></view><text class="text1">王同学</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">未到校</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			
+			<text class="text2" style="{{style1}}">签到</text>
+		</view>
+	</view>	
+	
+
+	
+	
+</view>

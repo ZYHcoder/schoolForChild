@@ -1,0 +1,67 @@
+<view class="top">
+	
+</view>
+<view class="topIcon">
+	<view class="iconList" data-number="0" bindtap="approveListTap">
+		<image src="../../images/cgsq.png" />
+		<view>采购申请</view>
+		<span>5</span>
+	</view>
+	<view class="iconList" data-number="1" bindtap="approveListTap">
+		<image src="../../images/ccsq.png" />
+		<view>出差申请</view>
+	</view>
+	<view class="iconList" data-number="2" bindtap="approveListTap">
+		<image src="../../images/bxsq.png" />
+		<view>报销申请</view>
+	</view>
+	<view class="iconList" data-number="3" bindtap="approveListTap">
+		<image src="../../images/hqsq.png" />
+		<view>活动申请</view>
+	</view>
+</view>
+<view class="mid">
+	<view class="time">
+		<view class="box">
+			<picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+			    <view class="picker">
+			       {{date}}
+			    </view>
+		  </picker>	
+		</view>
+		到
+		<view class="box" style="margin-left:18rpx;">
+			<picker mode="date" value="{{date2}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+			    <view class="picker">
+			       {{date}}
+			    </view>
+		  </picker>	
+		</view>
+		<view class="box2">
+			查询
+		</view>
+	</view>
+</view>
+
+<view class="bottom">
+	<view class="title">
+		<text style="margin-left: 35%;">我的汇报</text>
+		<view bindtap="addTap" class="box2" style="float: right; margin-right: 30rpx;margin-top:18rpx; background-color: orange;border:1px solid orange;">
+			新增
+		</view>
+	</view>
+	<view class="title">
+		<image src="../../images/caigout.png" /><text class="txt1">标题标题标题标题标题标题</text><text class="txt2">2017-05-01 08:08</text><image src="../../images/yes.png" />
+	</view>
+	<view class="title">
+		<image src="../../images/chuchait.png" /><text class="txt1">标题标题</text><text class="txt2">2017-05-01 08:08</text><image src="../../images/yes.png" />
+	</view>
+	<view class="title">
+		<image src="../../images/baoxiaot.png" /><text class="txt1">标题标题</text><text class="txt2">2017-05-01 08:08</text><image src="../../images/noa.png" />
+	</view>
+	<view class="title">
+		<image src="../../images/huodongt.png" /><text class="txt1">标题标题</text><text class="txt2">2017-05-01 08:08</text><image src="../../images/yes.png" />
+	</view>
+	
+	
+</view>

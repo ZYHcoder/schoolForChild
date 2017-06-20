@@ -1,0 +1,47 @@
+page{
+	width: 100%;
+	height: 100%;
+	background-color: #edeef0;
+}
+.DtailBox{
+	width: 100%;
+	height: 545rpx;
+	margin-top:24rpx;
+	background-color: #fff;
+	border-top:1rpx solid #eee;
+	border-bottom:1rpx solid #ccc;
+}
+.detailTop{
+	width: 100%;
+	height: 145rpx;
+	font-size: 30rpx;
+	color: #999;
+}
+.detailTop image{
+	width: 70rpx;
+	height: 70rpx;
+	margin-left: 24rpx;
+	display: inline-block;
+	vertical-align: middle;
+}
+.detailTop view{
+	width: 180rpx;
+	height: 145rpx;
+	margin-left: 24rpx;
+	display: inline-block;
+	line-height: 145rpx;
+}
+.name{
+color: #ff6600;
+}
+
+.detailBottom{
+	width: 100%;
+	height: 360rpx;
+	text-align: center;
+}
+.detailBottom image{
+	width: 640rpx%;
+	height: 360rpx;
+
+}

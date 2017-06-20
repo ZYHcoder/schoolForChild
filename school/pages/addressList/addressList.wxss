@@ -1,0 +1,61 @@
+page{
+	width: 100%;
+	height: 100%;
+	background-color: #f1f0f6;
+}
+.searchText{
+	width: 100%;
+	height: 84rpx;
+	line-height: 84rpx;
+	overflow:hidden;
+	background-color: #f1f0f6;
+}
+.searchText .searchInput{
+	width: 95%;
+	height: 54rpx;
+	background-color: #fff;
+	text-indent: 48%;
+	margin: 0 auto;
+	margin-top:15rpx;
+	border:1px solid #fff;
+	border-radius: 10rpx;
+}
+
+
+
+.groupList{
+	width: 100%;
+	height: auto;
+	margin-top:15rpx;
+}
+.groupList .groupName{
+	width: 100%;
+	height: 96rpx;
+	line-height: 96rpx;
+	color: #031e29;
+	font-weight: bolder;
+	background-color: #fff;
+}
+.groupList .groupName text{
+	height: 96rpx;
+	margin-left: 30rpx;
+	display: inline-block;
+}
+.groupList .groupName .iconLeft{
+	width: 80rpx;
+	height: 80rpx;
+	margin-left:20rpx;
+	vertical-align: middle;
+}
+.groupList .groupName .iconRight{
+	width: 34rpx;
+	height: 23rpx;
+	float: right;
+	margin-right:20rpx;
+	margin-top:30rpx;
+	vertical-align: middle;
+}
+.groupList .groupDetail{
+	width:100%;
+	height: auto;
+}

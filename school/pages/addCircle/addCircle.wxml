@@ -1,0 +1,11 @@
+<view class="top">
+	<textarea type="text" placeholder="这一刻的想法" />
+</view>
+<view class="mid">
+	<image bindtap="viewPicTap" data-url="{{item}}" wx:for="{{picList}}" src="{{item}}" />
+	
+	<image bindtap="addPicTap" src="../../images/addPic.png" />
+</view>
+<view class="myBox" bindtap="locationTap">
+	<image src="../../images/posi.png" /> <tetx class="name">所在位置</tetx><text class="right">></text>
+</view>

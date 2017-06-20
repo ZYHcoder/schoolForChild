@@ -1,0 +1,84 @@
+<view class="topTime">
+	5月1号 星期一
+</view>
+
+<view class="box">
+	<view class="title">
+		<text class="point"></text>  未签到
+	</view>
+	<view class="body">
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+		</view>
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+		</view>
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+		</view>
+	</view>
+</view>
+
+<view class="box">
+	<view class="title">
+		<text style="background-color: #9cd1d7;" class="point"></text>  已签到
+	</view>
+	<view class="body">
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+			<text>08:08:08</text>
+			<text class="difColor">明细 ></text>
+		</view>
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+			<text>08:08:08</text>
+			<text class="difColor">明细 ></text>
+		</view>
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+			<text>08:08:08</text>
+			<text class="difColor">明细 ></text>
+		</view>
+	</view>
+</view>
+
+<view class="box">
+	<view class="title">
+		<text style="background-color: #ffcc00;" class="point"></text>  已请假
+	</view>
+	<view class="body">
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+			<text>08:08:08</text>
+			<text class="difColor">假条 ></text>
+		</view>
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+			<text>08:08:08</text>
+			<text class="difColor">假条 ></text>
+		</view>
+		<view class="detail">
+			<text style="margin-left: 0rpx;">1</text>
+			<text>王老师</text>
+			<text>小二班</text>
+			<text>08:08:08</text>
+			<text class="difColor">假条 ></text>
+		</view>
+	</view>
+</view>

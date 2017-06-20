@@ -1,0 +1,148 @@
+page{
+	background-color: #edeef0;
+}
+.top{
+	width: 100%;
+	height: 24rpx;
+	background-color: #edeef0;
+}
+.topIcon{
+	width: 100%;
+	height: 215rpx;
+	display: flex;
+	border-top: 1px solid #ccc;
+	font-size: 24rpx;
+	color: #b0b0b0;
+	background-color: #fff;
+}
+.iconList{
+	flex:1;
+	text-align: center;
+	height: 215rpx;
+	position: relative;
+}
+.iconList image{
+	width: 105rpx;
+	height: 105rpx;
+	margin-top: 38rpx;
+
+}
+.iconList span{
+	width: 34rpx;
+	height: 34rpx;
+	background-color: red;
+	border:1px solid red;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top:15rpx;
+	right:15rpx;
+	color:#fff;
+	text-align: center;
+	line-height: 34rpx;
+}
+.title{
+	width: 100%;
+	height: 76rpx;
+	margin-top: 26rpx;
+	background-color: #fff;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	line-height: 76rpx;
+	color: #9cd1d7;
+	font-size: 30rpx;
+	text-indent: 20rpx;
+}
+.detail{
+	width: 100%;
+	height: 228rpx;
+	background-color: #fff;
+
+}
+.box{
+	width: 100%;
+	height: 112rpx;
+	border-bottom: 1px solid #ccc;
+	line-height: 112rpx;
+	display: flex;
+}
+.box2{
+	flex: 1;
+	text-indent: 30rpx;
+}
+.box2 image{
+	width: 50rpx;
+	height: 50rpx;
+	vertical-align: middle;
+}
+.box2 .txt1{
+	margin-left: 20rpx;
+	font-size: 28rpx;
+}
+.box2 .txt2{
+	margin-left: 25rpx;
+	color: #00cc33;
+	font-size: 32rpx;
+}
+
+.result{
+	width: 100%;
+	height: 116rpx;
+	background-color: #fff;
+	
+}
+.result .center{
+	width: 384rpx;
+	height: 114rpx;
+	background-color: #fff;
+	margin: 0 auto;
+	border-bottom: 1px dashed #ccc;
+	line-height: 156rpx;
+}
+.result .center image{
+	width: 46rpx;
+	height: 46rpx;
+	vertical-align: middle;
+}
+.bor{
+	width: 384rpx;
+	height: 1rpx;
+	
+	margin: 0 auto;
+	border-bottom: 1px dashed #ccc;	
+}
+
+.resultImg{
+	width: 100%;
+	height: 347rpx;
+	background-color: #fff;
+	overflow: hidden;
+}
+.resultImg .img{
+	width: 100%;
+	height: 250rpx;
+	margin-top:50rpx;
+	background-color: #fff;
+	display: flex;
+}
+.resultImg .img .imgBox{
+	flex: 1;
+	text-align: center;
+}
+.resultImg .img .imgBox image{
+	width: 326rpx;
+	height: 245rpx;
+}
+
+.bottom{
+	width: 100%;
+	height:  146rpx;
+	background-color: #fff;
+	margin-top:26rpx;
+	line-height: 50rpx;
+	font-size: 28rpx;
+	text-indent: 20rpx;
+}
+.bottom text{
+	color: #9cd1d7;
+}

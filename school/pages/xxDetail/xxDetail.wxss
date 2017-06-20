@@ -1,0 +1,34 @@
+.top{
+	width: 100%;
+	height: 100rpx;
+	border-bottom:1px solid #eee;
+	text-indent: 25rpx;
+	line-height: 120rpx;
+	color: #7dafb5;
+}
+.body{
+	width: 100%;
+	height: auto;
+}
+.bodyTop{
+	width: 100%;
+	height: 60rpx;
+}
+.bodyTop image{
+	width: 60rpx;
+	height: 60rpx;
+	margin-left: 30rpx;
+}
+.name{
+	display: inline-block;
+	margin-left: 30rpx;
+}
+.time{
+	color: #b8bdbe;
+	font-size: 26rpx;
+}
+.bodyDetail{
+	margin-top:55rpx;
+	padding:30rpx;
+	text-indent: 20rpx;
+}

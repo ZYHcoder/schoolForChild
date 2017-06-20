@@ -1,0 +1,18 @@
+<view class="top">
+	
+</view>
+<view class="box1" style="padding-top:15rpx;">
+	通知标题:<input class="txt" type="text" placeholder="通知标题" />
+</view>
+
+<view class="box1">
+	通知内容:
+</view>
+<view class="txtarea">
+	<textarea class="detail" name="" placeholder="通知内容">
+	
+	</textarea>
+</view>
+<view class="btn">
+	<view bindtap="addTap">提交</view>
+</view>

@@ -1,0 +1,69 @@
+page{
+	width: 100%;
+	height: 100%;
+	background-color: #edeef0;
+}
+.DtailBox{
+	width: 100%;
+	height: 410rpx;
+	margin-top:24rpx;
+	background-color: #fff;
+	border-top:1rpx solid #eee;
+	border-bottom:1rpx solid #ccc;
+}
+.detailTop{
+	width: 100%;
+	height: 145rpx;
+	font-size: 30rpx;
+	color: #999;
+}
+.detailTop image{
+	width: 70rpx;
+	height: 70rpx;
+	margin-left: 24rpx;
+	display: inline-block;
+	vertical-align: middle;
+}
+.detailTop view{
+	width: 180rpx;
+	height: 145rpx;
+	margin-left: 24rpx;
+	display: inline-block;
+	line-height: 145rpx;
+}
+.name{
+color: #ff6600;
+}
+
+.detailBottom{
+	width: 100%;
+	height: 180rpx;
+	text-align: center;
+}
+.detailBottom image{
+	width: 304rpx;
+	height: 172rpx;
+	margin-left: 10rpx;
+
+}
+.detailTop2{
+	width: 100%;
+	height: 100rpx;
+	font-size: 30rpx;
+	color: #999;
+}
+.detailTop2 image{
+	width: 50rpx;
+	height: 50rpx;
+	margin-left: 324rpx;
+	display: inline-block;
+	vertical-align: middle;
+}
+.detailTop2 view{
+	
+	width: 40%;
+	height: 100rpx;
+	margin-left: 24rpx;
+	display: inline-block;
+	line-height: 100rpx;
+}

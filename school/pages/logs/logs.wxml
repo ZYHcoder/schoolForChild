@@ -1,0 +1,43 @@
+<!--logs.wxml-->
+<view class="scan" bindtap="scanTap">
+	<!-- <image src="../../images/scan.png"></image> -->
+</view>
+<view class="title">
+	小葵花幼儿园
+</view>
+<view class="welcome">
+	欢迎您
+</view>
+<form class="fromLog" bindsubmit="formSubmit">
+	<view class="inputView">
+		<image src="../../images/gangwei.png"></image>
+		<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" name="gangwei" type="text" placeholder="岗位" placeholder-style="color:#e0e0e0" >
+		<image style="float:right;height: 50rpx;margin-top:20rpx;" src="../../images/iconRight.png"></image>
+		{{array[index]}}
+		</picker>
+	</view>
+	<view class="inputView">
+		<image src="../../images/gangwei.png"></image>
+		<input name="school" type="number" placeholder="学校" placeholder-style="color:#e0e0e0" />
+	</view>
+	<view class="inputView">
+		<image src="../../images/gangwei.png"></image>
+		<input name="username" type="text" placeholder="手机号" placeholder-style="color:#e0e0e0" />
+	</view>
+	<view class="inputView">
+		<image src="../../images/gangwei.png"></image>
+		<input name="password" type="text" placeholder="密码" placeholder-style="color:#e0e0e0" password="true"/>
+	</view>
+	<button class="loginButton" formType="submit"><image  src="../../images/login.png"></image></button>
+	
+</form>
+<view class="bottom">
+	<view class="border">
+		<image src="../../images/border.png"></image>
+	</view>
+	<view class="text" style="margin-left:50rpx">注册账号</view>
+	<view class="text">忘记密码</view>
+	<view class="border">
+		<image src="../../images/border.png"></image>
+	</view>
+</view>

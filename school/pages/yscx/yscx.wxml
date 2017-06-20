@@ -1,0 +1,55 @@
+<view class="top">
+	<view class="date">
+		选择起止日期:
+	</view>
+	<view class="time">
+		<view class="box">
+			<picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+			    <view class="picker">
+			       {{date}}
+			    </view>
+		  </picker>	
+		</view>
+		到
+		<view class="box" style="margin-left:18rpx;">
+			<picker mode="date" value="{{date2}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+			    <view class="picker">
+			       {{date}}
+			    </view>
+		  </picker>	
+		</view>
+		<view class="box2">
+			查询
+		</view>
+	</view>
+</view>
+
+<view class="detail">
+	<view class="title">
+		<view class="name">
+			<image src="../../images/banji.png" /><text>班级</text>
+		</view>
+		<view class="name">
+			<image style="margin-left: 3rpx;" src="../../images/jine.png" /><text>应收金额</text>
+		</view>
+	</view>
+
+
+	<view class="title">
+		<view class="name">
+			<view class="point"></view><text class="text1">班级</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">￥8888888</text>
+		</view>
+	</view>	
+	<view class="title">
+		<view class="name">
+			<view class="point"></view><text class="text1">班级</text><view class="bor"></view>
+		</view>
+		<view class="name">
+			<text class="text2">￥8888888</text>
+		</view>
+	</view>	
+	
+</view>

@@ -1,0 +1,64 @@
+<view class="titleName">
+	<view class="{{titleNumber==0?'name-1-2':'name-1'}}" data-titleClass="0" bindtap="titleTap">老师通知</view>
+	<view class="{{titleNumber==1?'name-2':'name-2-2'}}" data-titleClass="1" bindtap="titleTap">学生通知</view>
+</view>
+
+<view class="box" bindtap="pxtzTap">
+	<view class="top">
+		<image src="{{status2==0?'../../images/weidu.png':'../../images/yidu.png'}}" /><text class="t1">培训通知</text><text class="{{status2==0?'dian':''}}"></text><text class="t2">2017.05.01.08:08:08</text><image class="img2" src="{{status==1?'../../images/jt1.png':'../../images/jt2.png'}}" />
+	</view>
+	<view class="body">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	<view class="body" style="color:#333; margin-top:10rpx;" hidden="{{status}}">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	<view class="img" hidden="{{status}}">
+		<image src="../../images/bbwd.png" /><image src="../../images/bbwd.png" /><image src="../../images/bbwd.png" />
+	</view>
+</view>
+<view class="box" bindtap="pxtzTap">
+	<view class="top">
+		<image src="{{status2==0?'../../images/weidu.png':'../../images/yidu.png'}}" /><text class="t1">培训通知</text><text class="{{status2==0?'dian':''}}"></text><text class="t2">2017.05.01.08:08:08</text><image class="img2" src="{{status==1?'../../images/jt1.png':'../../images/jt2.png'}}" />
+	</view>
+	<view class="body">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	<view class="body" style="color:#333; margin-top:10rpx;" hidden="{{status}}">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	<view class="img" hidden="{{status}}">
+		<image src="../../images/bbwd.png" /><image src="../../images/bbwd.png" /><image src="../../images/bbwd.png" />
+	</view>
+</view>
+<view class="box" bindtap="pxtzTap">
+	<view class="top">
+		<image src="{{status2==0?'../../images/weidu.png':'../../images/yidu.png'}}" /><text class="t1">培训通知</text><text class="{{status2==0?'dian':''}}"></text><text class="t2">2017.05.01.08:08:08</text><image class="img2" src="{{status==1?'../../images/jt1.png':'../../images/jt2.png'}}" />
+	</view>
+	<view class="body">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	<view class="body" style="color:#333; margin-top:10rpx;" hidden="{{status}}">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	<view class="img" hidden="{{status}}">
+		<image src="../../images/bbwd.png" /><image src="../../images/bbwd.png" /><image src="../../images/bbwd.png" />
+	</view>
+</view>
+<view class="box" bindtap="pxtzTap">
+	<view class="top">
+		<image src="{{status2==0?'../../images/weidu.png':'../../images/yidu.png'}}" /><text class="t1">培训通知</text><text class="{{status2==0?'dian':''}}"></text><text class="t2">2017.05.01.08:08:08</text><image class="img2" src="{{status==1?'../../images/jt1.png':'../../images/jt2.png'}}" />
+	</view>
+	<view class="body">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	<view class="body" style="color:#333; margin-top:10rpx;" hidden="{{status}}">
+		打算看见的快乐撒娇的快乐事件啊断开连接阿斯兰的空间阿斯利康大叔控劳动纪律圣诞节啦开始就打瞌睡了巨大历史课
+	</view>
+	<view class="img" hidden="{{status}}">
+		<image src="../../images/bbwd.png" /><image src="../../images/bbwd.png" /><image src="../../images/bbwd.png" />
+	</view>
+</view>
+<view class="fix" bindtap="fbtzTap">
+	发布通知
+</view>

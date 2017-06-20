@@ -1,0 +1,8 @@
+<view class="titleName">
+	<view class="{{titleNumber==0?'name-1-2':'name-1'}}" data-titleClass="0" bindtap="titleTap">待审批</view>
+	<view class="{{titleNumber==1?'name-2':'name-2-2'}}" data-titleClass="1" bindtap="titleTap">已审批</view>
+</view>
+
+<view class="detail" wx:for="{{dataDetail}}" wx:key="id" bindtap="teacherLeaveTap" data-id="{{item.id}}">
+	<image src="../../images/baobao.png" /><text style="font-size: 30rpx;margin-left: 20rpx;">{{item.name}}</text><text class="time">提交申请时间：{{item.inputedate}}</text>
+</view>
